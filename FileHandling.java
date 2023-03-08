@@ -7,13 +7,8 @@ import java.nio.file.Paths;
 
 public class FileHandling {
     public void writeIntoFile(String adBookName, AddressBook addressBook) throws FileNotFoundException {
-        final String pathAndFileName="AddressBook.txt";
-        Path path = Paths.get("C:\\Users\\LENOVO\\IdeaProjects\\Day_27AddressBookFileIO\\src\\com\\bridgelabz\\ContactBook");
-
-        File file = new File(pathAndFileName);
-        file.getAbsolutePath();
-        PrintWriter printWriter=new PrintWriter(file);
-
+      
+      Path path = Paths.get("C:\\Users\\LENOVO\\IdeaProjects\\Day_27AddressBookFileIO\\src\\com\\bridgelabz\\ContactBook");
         try {
             String data = "";
             for (Contacts contact: addressBook.contactList) {
