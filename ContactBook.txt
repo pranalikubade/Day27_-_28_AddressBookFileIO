@@ -1,0 +1,16 @@
+Contacts{
+firstName='panu'
+lastName='Itankar'
+address='Katol'
+city='Nagpur'
+state='Maharashtra'
+email='panu@gmai.com'
+phoneNo='4567894567'}
+Contacts{
+firstName='Komal'
+lastName='Kamde'
+address='Kondhali'
+city='Nagpur'
+state='Maharashtra'
+email='ash12@gamil.com'
+phoneNo='456788765'}
